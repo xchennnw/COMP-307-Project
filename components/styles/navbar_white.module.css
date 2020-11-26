@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+
+@media (max-width: 1500px) {
+    #navbarNavAltMarkup {
+        display: none !important;
+    }
+    .navbar-toggler{
+        display: block !important;
+    }
+}
+
+.navbar{
+    height: 100px;
+    line-height: 100px;
+
+}
+.searchbar{
+    height: 100px;
+    line-height: 100px;
+}
+.navbar-nav{
+    display: flex;
+    width:50%;
+    max-width: 800px;
+    min-width: 1000px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.navbar-toggler{
+    border: none;
+}
+.outerspace{
+    width: 100%;
+    min-width:1300px;
+    max-width:2000px;
+}
+.searchtext{
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    color: #4e555b;
+    font-size: 10px;
+}
+.nav-link{
+    font-size: 15px;
+
+}
+
+.user-icon{
+    filter: invert(49%) sepia(1%) saturate(0%) hue-rotate(312deg) brightness(102%) contrast(90%);
+}
