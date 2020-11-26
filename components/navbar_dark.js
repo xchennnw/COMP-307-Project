@@ -1,16 +1,16 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import styles from './styles/navbar_white.module.css'
+import styles from './styles/navbar_dark.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 //import { faAdobe } from '@fortawesome/free-brands-svg-icons/faAdobe';
 
 
-class Navbar_white extends React.Component {
+class Navbar_dark extends React.Component {
     render() {
         return (
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <nav className="navbar navbar-expand-lg navbar-dark">
                 <a className="navbar-toggler" href="#"><img className="user-icon" src="/user-circle-solid.svg" height="35"></img></a>
-                <a className="navbar-toggler mx-auto" href="#"><img src="/cs_icon_black.png" height="40"></img></a>
+                <a className="navbar-toggler mx-auto" href="#"><img src="/cs_icon_white.png" height="40"></img></a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
@@ -20,7 +20,7 @@ class Navbar_white extends React.Component {
                         <div className="d-flex justify-content-around">
                             <a className="" href="#"><img className="user-icon" src="/user-circle-solid.svg" height="35"></img></a>
                             <div className="navbar-nav ">
-                                <a href="#"><img src="/cs_icon_black.png" height="40"></img></a>
+                                <a href="#"><img src="/cs_icon_white.png" height="40"></img></a>
                                 <a className="nav-link active" href="#">Prospective<span className="sr-only">(current)</span></a>
                                 <a className="nav-link" href="#">Academic</a>
                                 <a className="nav-link" href="#">Research</a>
@@ -40,4 +40,4 @@ class Navbar_white extends React.Component {
         )
     }
 }
-export default Navbar_white
+export default Navbar_dark
