@@ -9,14 +9,38 @@
     }
 }
 
+@media (max-width: 767px) {
+    .carousel-indicators,
+    .carousel-indicators li {
+        cursor: default;
+        pointer-events: none;
+    }
+}
+
+.container-fluid{
+    margin: 0 auto;
+    max-width: 1920px;
+    max-height: 720px;
+}
+.carousel_title{
+    font-size:1vh;
+}
+
+.d-block{
+    width: 1920px;
+    height: 720px;
+    object-fit: cover;
+}
+
+
 .navbar{
-    height: 100px;
-    line-height: 100px;
+    height: 100%;
+    line-height: 100%;
 
 }
 .searchbar{
-    height: 100px;
-    line-height: 100px;
+    height: 100%;
+    line-height: 100%;
 }
 .navbar-nav{
     display: flex;
@@ -43,6 +67,7 @@
 }
 .nav-link{
     font-size: 15px;
+    padding: -20px 0;
 
 }
 
