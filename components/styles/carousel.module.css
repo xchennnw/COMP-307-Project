@@ -1,12 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
 
-@media (max-width: 1000px) {
+@media (max-width: 1300px){
+
+    .d-block{
+        height: 600px !important;
+    }
+}
+
+@media (max-width: 1000px){
+    .d-block{
+        height: 500px !important;
+    }
+}
+
+@media (max-width: 800px){
     .carousel_title {
         position: static !important;
     }
-
+    .carousel_title1{
+        font-size: 1.5em !important;
+        font-weight:400;
+    }
+    .carousel_title2{
+        font-size: 2em !important;
+    }
+    .d-block{
+        height: 400px !important;
+    }
 }
 
+@media (max-width: 400px){
+    .d-block{
+        height: 300px !important;
+    }
+}
 .carousel_block{
     width: 29px;
     height: 5px;
@@ -45,7 +72,7 @@
 .container-fluid{
     margin: 0 auto;
     max-width: 1920px;
-    height: 720px;
+    max-height: 720px;
     background-color: black;
     padding: 0;
 }
@@ -58,4 +85,8 @@
     width: 1920px;
     height: 720px;
     object-fit: cover;
+}
+
+car_item{
+    height: 100%;
 }
