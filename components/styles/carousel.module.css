@@ -18,8 +18,8 @@
         position: static !important;
     }
     .carousel_title1{
-        font-size: 1.5em !important;
-        font-weight:400;
+        font-size: 0.9em !important;
+        font-weight:700  !important;
     }
     .carousel_title2{
         font-size: 2em !important;
@@ -37,7 +37,7 @@
 .carousel_block{
     width: 29px;
     height: 5px;
-    background-color: rgb(230,0,0);
+    background-color: rgb(230, 0, 0);
     float: right;
     position: relative;
     top: 7px;

@@ -1,0 +1,46 @@
+@media (max-width: 575px){
+    .row_space::after{
+        display: none !important;
+    }
+    .row_space::before{
+        display: none !important;
+    }
+
+}
+.submit_button{
+    background-color: #E60000;
+    border: none;
+}
+.submit_button:hover{
+    background-color: #ca0101;
+}
+
+.form_login{
+    margin-top: 30px;
+}
+
+.form_space{
+    width: 80%;
+    margin: 0 auto;
+
+}
+.home_form{
+
+}
+
+.row_space{
+    display: flex;
+    justify-content: space-around;
+}
+
+.row_space::before{
+    content: "";
+    border-bottom: 2px solid #d5d7db;
+    width: 15%;
+}
+
+.row_space::after{
+    content: "";
+    border-bottom: 2px solid #d5d7db;
+    width: 15%;
+}
