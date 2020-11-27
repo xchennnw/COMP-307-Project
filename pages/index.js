@@ -4,14 +4,17 @@ import React from 'react'
 import Navbar_white from '../components/navbar_white'
 import Navbar_dark from '../components/navbar_dark'
 //import {render} from "next/client";
+import styles from './styles/index.css'
+import Homepage_carousel from "../components/carousel";
 
 
 const Home=()=>(
     <div>
-        <Navbar_dark/>
-        <p>
-            hi
-        </p>
+        <head>
+            <script type="text/javascript" src="/static/home_head.js"></script>
+        </head>
+        <Navbar_white/>
+        <Homepage_carousel/>
     </div>
 )
 /*

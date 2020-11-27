@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 class Navbar_white extends React.Component {
     render() {
         return (
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <nav className="navbar navbar-expand navbar-light bg-light">
                 <a className="navbar-toggler" href="#"><img className="user-icon" src="/user-circle-solid.svg" height="35"></img></a>
                 <a className="navbar-toggler mx-auto" href="#"><img src="/cs_icon_black.png" height="40"></img></a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -19,7 +19,7 @@ class Navbar_white extends React.Component {
                     <div className="outerspace mx-auto">
                         <div className="d-flex justify-content-around">
                             <a className="" href="#"><img className="user-icon" src="/user-circle-solid.svg" height="35"></img></a>
-                            <div className="navbar-nav ">
+                            <div className="navbar-nav">
                                 <a href="#"><img src="/cs_icon_black.png" height="40"></img></a>
                                 <a className="nav-link active" href="#">Prospective<span className="sr-only">(current)</span></a>
                                 <a className="nav-link" href="#">Academic</a>
