@@ -6,6 +6,7 @@ import Navbar_dark from '../components/navbar_dark'
 //import {render} from "next/client";
 import styles from './styles/index.css'
 import Homepage_carousel from "../components/carousel";
+import Home_login from "../components/home_login";
 
 
 const Home=()=>(
@@ -15,6 +16,7 @@ const Home=()=>(
         </head>
         <Navbar_white/>
         <Homepage_carousel/>
+        <Home_login/>
     </div>
 )
 /*
