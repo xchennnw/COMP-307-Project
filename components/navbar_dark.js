@@ -9,7 +9,7 @@ class Navbar_dark extends React.Component {
     render() {
         return (
             <nav className="navbar navbar-expand-lg navbar-dark">
-                <a className="navbar-toggler" href="#"><img className="user-icon" src="/user-circle-solid.svg" height="35"></img></a>
+                <a className="navbar-toggler" href="user"><img className="user-icon" src="/user-circle-solid.svg" height="35"></img></a>
                 <a className="navbar-toggler mx-auto" href="#"><img src="/cs_icon_white.png" height="40"></img></a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,11 +21,11 @@ class Navbar_dark extends React.Component {
                             <a className="" href="#"><img className="user-icon" src="/user-circle-solid.svg" height="35"></img></a>
                             <div className="navbar-nav ">
                                 <a href="#"><img src="/cs_icon_white.png" height="40"></img></a>
-                                <a className="nav-link active" href="#">Prospective<span className="sr-only">(current)</span></a>
-                                <a className="nav-link" href="#">Academic</a>
+                                <a className="nav-link active" href="update">Prospective<span className="sr-only">(current)</span></a>
+                                <a className="nav-link" href="article">Academic</a>
                                 <a className="nav-link" href="#">Research</a>
                                 <a className="nav-link" href="#">People</a>
-                                <a className="nav-link" href="#">News</a>
+                                <a className="nav-link" href="announce">News</a>
                                 <a className="nav-link" href="#">Employment</a>
                                 <a className="nav-link" href="#">Donate</a>
                             </div>
