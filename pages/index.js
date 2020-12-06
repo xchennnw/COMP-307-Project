@@ -10,7 +10,7 @@ import Home_login from "../components/home_login";
 
 
 const Home=()=>(
-    <div>
+    <div className="bg-light">
         <head>
             <script type="text/javascript" src="/static/home_head.js"></script>
         </head>
