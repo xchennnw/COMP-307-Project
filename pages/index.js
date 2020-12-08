@@ -6,6 +6,7 @@ import Navbar_dark from '../components/navbar_dark'
 import Homepage_carousel from "../components/carousel";
 import Home_login from "../components/home_login";
 import Cards from "../components/cards.js";
+import Home_background from "../components/home_background";
 
 
 const Home=()=>(
@@ -17,6 +18,7 @@ const Home=()=>(
         <Homepage_carousel/>
         <Home_login/>
         <Cards/>
+        <Home_background/>
     </div>
 )
 /*
