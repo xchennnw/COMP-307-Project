@@ -22,7 +22,6 @@
 .cards{
     margin: 0 auto;
     max-width: 1510px;
-    max-height: 720px;
 }
 .c_col{
     column-count: 1;
