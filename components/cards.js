@@ -12,7 +12,7 @@ class Cards extends React.Component {
     }
 
     componentDidMount() {
-        window.addEventListener('resize', this.updateDimensions);
+        window.addEventListener('resize', this.updateDimensions,false);
     }
     updateDimensions() {
             this.setState({
@@ -20,27 +20,28 @@ class Cards extends React.Component {
             });
     }
     render() {
-        const className1 = this.state.isMobile ? 'col-4 card_cos' : 'card_cos';
+        const className1 = this.state.isMobile ? 'card_cos' : 'card_cos col-4';
+        const className2 = this.state.isMobile ? 'text-center p-3 card_cos card_sticker' : 'text-center p-3 card_cos card_sticker col-3';
         return (
             <div className="cards">
                 <CardGroup className="c_col">
                     <Card className="card_cos" >
                         <Card.Img variant="top" src={'/banner.jpg'} className="card_img" />
-                        <Card.Body className="card_body container d-flex h-100">
-                            <div className="card_body_div justify-content-center w-100 align-self-center">
-                                <div className="card_outer_space">
-                                <div className="card_space">
-                                    <Card.Title className="co_title">
-                                        Student Life
-                                    </Card.Title>
-                                    <div className="card_block"></div>
+                            <Card.Body className="card_body container d-flex h-100">
+                                <div className="card_body_div justify-content-center w-100 align-self-center">
+                                    <div className="card_outer_space">
+                                        <div className="card_space">
+                                            <Card.Title className="co_title">
+                                                Student Life
+                                            </Card.Title>
+                                            <div className="card_block"></div>
+                                        </div>
+                                        <Card.Title className="main_title">
+                                            Virtual Collaboration Techniques to Catalyze Open  Innovation
+                                        </Card.Title>
+                                    </div>
                                 </div>
-                                <Card.Title className="main_title">
-                                    Virtual Collaboration Techniques to Catalyze Open  Innovation
-                                </Card.Title>
-                            </div>
-                            </div>
-                        </Card.Body>
+                            </Card.Body>
                     </Card>
 
                     <Card className={className1}>
@@ -63,7 +64,7 @@ class Cards extends React.Component {
                     </Card>
                 </CardGroup>
                 <CardGroup className="c_col">
-                    <Card text="white" className="text-center p-3 card_cos card_sticker col-3">
+                    <Card text="white" className={className2}>
                         <Card.Body className="card_body container d-flex h-100">
                             <div className="card_body_sticker justify-content-center align-self-center">
                                 <Card.Title className="sticker_title">
