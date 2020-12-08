@@ -20,12 +20,12 @@ class Navbar_dark extends React.Component {
                         <div className="d-flex justify-content-around">
                             <a className="" href="#"><img className="user-icon" src="/user-circle-solid.svg" height="35"></img></a>
                             <div className="navbar-nav ">
-                                <a href="#"><img src="/cs_icon_white.png" height="40"></img></a>
+                                <a href="/"><img src="/cs_icon_white.png" height="40"></img></a>
                                 <a className="nav-link active" href="update">Prospective<span className="sr-only">(current)</span></a>
-                                <a className="nav-link" href="article">Academic</a>
+                                <a className="nav-link" href="article">Article</a>
                                 <a className="nav-link" href="#">Research</a>
                                 <a className="nav-link" href="#">People</a>
-                                <a className="nav-link" href="announce">News</a>
+                                <a className="nav-link" href="announce">Announcement</a>
                                 <a className="nav-link" href="#">Employment</a>
                                 <a className="nav-link" href="#">Donate</a>
                             </div>
