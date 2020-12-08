@@ -4,6 +4,7 @@ import React from 'react'
 import Navbar_dark from '../components/navbar_dark'
 import ContentTop from '../components/content_top'
 import Row from '../components/one_row'
+import Footer from "../components/footer";
 
 
 const Update=()=>(
@@ -11,6 +12,7 @@ const Update=()=>(
         
         <Navbar_dark/>
         aaaaaaaaaaaaaaaaaaaaaa
+        <Footer/>
     </div>
 )
 

@@ -7,7 +7,7 @@ import Homepage_carousel from "../components/carousel";
 import Home_login from "../components/home_login";
 import Cards from "../components/cards.js";
 import Home_background from "../components/home_background";
-
+import Footer from "../components/footer";
 
 const Home=()=>(
     <div className="bg-light">
@@ -19,6 +19,7 @@ const Home=()=>(
         <Home_login/>
         <Cards/>
         <Home_background/>
+        <Footer/>
     </div>
 )
 /*

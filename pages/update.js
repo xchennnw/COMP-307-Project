@@ -4,6 +4,7 @@ import React from 'react'
 import Navbar_dark from '../components/navbar_dark'
 import ContentTop from '../components/content_top'
 import Row from '../components/one_row'
+import Footer from "../components/footer";
 
 
 const Update=()=>(
@@ -19,6 +20,7 @@ const Update=()=>(
              time="2020-11-23" author="admin" link="content"/>
         <Row type="COVID-19 UPDATES:" topic="Concerns related to COVID-19" 
              time="2020-11-23" author="admin" link="content"/>
+             <Footer/>
     </div>
 )
 
