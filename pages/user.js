@@ -8,7 +8,7 @@ import UserPage from '../components/user_page'
 const User=()=>(
     <div>
         
-        <Navbar_dark/>
+
         <UserPage/>
         
         
