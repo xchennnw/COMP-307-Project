@@ -26,6 +26,9 @@
 
 .navbar-toggler{
     border: none;
+    background-color:whitesmoke;
+    z-index: 9;
+    margin-top: 10px;
 }
 .outerspace{
     width: 100%;
@@ -46,3 +49,20 @@
 .user-icon{
     filter: invert(49%) sepia(1%) saturate(0%) hue-rotate(312deg) brightness(102%) contrast(90%);
 }
+.listtt2{
+    border: none;
+    position: relative;
+   
+    text-align: left;
+    background-color:whitesmoke;
+    height:150px;
+}
+.nav-link22{
+    font-size: 15px; 
+    color:rgb(85, 85, 85);
+}
+.lii{
+    height:20px;
+    
+}
+

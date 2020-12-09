@@ -11,7 +11,7 @@ class Text_page_content extends React.Component {
                         <p className="tc_lefttext">POSTED BY: {this.props.publisher}</p>
                     </div>
                     <div className="tc_leftside my-1">
-                        <a href="#"><p className="tc_lefttext">ALL {this.props.topic}</p></a>
+                        <a href="announce"><p className="tc_lefttext">ALL {this.props.topic}</p></a>
                     </div>
                 </div>
                 <div className="col-8">{this.props.content}</div>

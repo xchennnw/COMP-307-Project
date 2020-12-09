@@ -7,6 +7,9 @@
     .navbar-toggler{
         display: block !important;
     }
+    .navbar-toggler2{
+        display: block !important;
+    }
 }
 
 .navbar{
@@ -32,6 +35,12 @@ nav{
 
 .navbar-toggler{
     border: none;
+    
+}
+.navbar-toggler2{
+    border: none;
+    position: fixed;
+    top:50px;
 }
 .outerspace{
     width: 100%;
@@ -52,4 +61,20 @@ nav{
 
 .user-icon{
     filter: invert(49%) sepia(1%) saturate(0%) hue-rotate(312deg) brightness(102%) contrast(90%);
+}
+.listtt{
+    border: none;
+    position: relative;
+    
+    text-align: left;
+    background-color: rgb(53,62,77);
+    height:150px;
+}
+.nav-link2{
+    font-size: 15px; 
+    color:whitesmoke;
+}
+.lii{
+    height:20px;
+    
 }
