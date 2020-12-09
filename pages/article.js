@@ -11,7 +11,7 @@ const Article=()=>(
     <div>
         
         <Navbar_dark/>
-        <ContentTop name="Academic Articles" pic="pan.jpg"/>
+        <ContentTop name="Articles" pic="pan.jpg"/>
         <div style={{height: 150}}></div>
 
         <Row type="ARTICLE:" topic="Concerns related to COVID-19" 

@@ -27,7 +27,7 @@ class Navbar_dark extends React.Component {
                                 <a className="nav-link" href="#">People</a>
                                 <a className="nav-link" href="announce">Announcement</a>
                                 <a className="nav-link" href="#">Employment</a>
-                                <a className="nav-link" href="#">Donate</a>
+                                <a className="nav-link" href="donate">Donate</a>
                             </div>
                             <div className="searchbar">
                                 <a className="float-right nav-link" href="#"><p className="searchtext">Search McGill CS School<img className="user-icon ml-1" src="/search-solid.svg" height="15"></img></p></a>
