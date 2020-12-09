@@ -13,10 +13,22 @@
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
     "@fortawesome/react-fontawesome": "^0.1.13",
     "@zeit/next-css": "^1.0.1",
+    "agents": "0.0.2",
     "bootstrap": "^4.5.3",
+    "caniuse-lite": "^1.0.30001165",
+    "dgram": "^1.0.1",
+    "dist": "^0.1.2",
+    "dns": "^0.2.2",
+    "fs": "0.0.1-security",
+    "mongodb": "^3.6.3",
+    "mysql": "^2.18.1",
     "next": "^10.0.3",
     "react": "^16.14.0",
     "react-bootstrap": "^1.4.0",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "unpacker": "^1.0.1"
+  },
+  "devDependencies": {
+    "@prisma/cli": "^2.13.0"
   }
 }
